@@ -4,12 +4,16 @@ import { Canvas } from "@react-three/fiber";
 
 import Fox from "../models/Fox.jsx";
 import Loader from "../components/Loader.jsx";
+import useAlert from "../hooks/useAlert.js";
+import Alert from "../components/Alert.jsx";
 
 const Contact = () => {
   const formRef = useRef(null);
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [isLoading, setIsLoading] = useState(false);
   const [currentAnimation, setCurrentAnimation] = useState("idle");
+
+  const { alert, showAlert, hideAlert } = useAlert();
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -36,10 +40,14 @@ const Contact = () => {
       )
       .then(() => {
         setIsLoading(false);
-        // TODO: Show success message
-        //TODO: Hide an alert
+        showAlert({
+          show: true,
+          text: "Message sent successfully!",
+          type: "success",
+        });
 
         setTimeout(() => {
+          hideAlert();
           setCurrentAnimation("idle");
           setForm({ name: "", email: "", message: "" });
         }, [3000]);
@@ -48,12 +56,18 @@ const Contact = () => {
         setIsLoading(false);
         setCurrentAnimation("idle");
         console.log(error);
-        //TODO: Show error message
+        showAlert({
+          show: true,
+          text: "I didn't get your message, please try again!",
+          type: "danger",
+        });
       });
   };
 
   return (
     <section className="relative flex lg:flex-row flex-col max-container">
+      {alert.show && <Alert {...alert} />}
+
       <div className="flex-1 min-w-[50%] flex-col">
         <h1 className="head-text">Get in Touch</h1>
 
