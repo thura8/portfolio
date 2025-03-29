@@ -3,6 +3,7 @@ import {
   car,
   contact,
   css,
+  ecommerce,
   estate,
   express,
   git,
@@ -183,51 +184,67 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: pricewise,
-    theme: "btn-back-red",
-    name: "Amazon Price Tracker",
+    iconUrl: summiz,
+    theme: "btn-back-yellow",
+    name: "E-commerce powered by React Native",
     description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    link: "https://github.com/adrianhajdin/pricewise",
-  },
-  {
-    iconUrl: threads,
-    theme: "btn-back-green",
-    name: "Full Stack Threads Clone",
-    description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://github.com/adrianhajdin/threads",
+      "Our React Native e-commerce app delivers a seamless shopping experience with a sleek design, fast performance, and intuitive navigation. Browse products, add to cart, and make secure payments—all in one place. Built for efficiency and scalability, it ensures a smooth user experience across both iOS and Android.",
+    link: "https://github.com/thura8/E-Commerce-react-native-",
   },
   {
     iconUrl: car,
     theme: "btn-back-blue",
-    name: "Car Finding App",
+    name: "Popcorn plus movie app",
     description:
-      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-    link: "https://github.com/adrianhajdin/project_next13_car_showcase",
-  },
-  {
-    iconUrl: snapgram,
-    theme: "btn-back-pink",
-    name: "Full Stack Instagram Clone",
-    description:
-      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-    link: "https://github.com/adrianhajdin/social_media_app",
+      "Our React Native movie app offers a seamless experience for discovering and exploring your favorite films. Browse movie categories, view detailed information, and create your own watchlist. With a sleek design and smooth navigation, enjoy an immersive entertainment experience anytime, anywhere.",
+    link: "https://github.com/thura8/popcornPlus-movie-app",
   },
   {
     iconUrl: estate,
     theme: "btn-back-black",
-    name: "Real-Estate Application",
+    name: "UYChat",
     description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-    link: "https://github.com/adrianhajdin/projects_realestate",
+      "UYChat is a user-friendly messaging app designed for seamless communication. With real-time chat features, secure messaging, and intuitive navigation, UYChat lets you stay connected with friends, family, and colleagues. Share messages, images, and videos effortlessly, and enjoy a smooth, reliable chat experience.",
+    link: "https://github.com/thura8/UYChat",
+  },
+  {
+    iconUrl: pricewise,
+    theme: "btn-back-red",
+    name: "VirtualR Landing Page",
+    description:
+      "Unleash your creativity and build stunning websites with our intuitive development tools. Get started today and transform your ideas into a dynamic online experience!",
+    link: "https://virtual-r-gamma-sooty.vercel.app/",
+  },
+  {
+    iconUrl: threads,
+    theme: "btn-back-green",
+    name: "Nike Landing Page",
+    description:
+      "Explore the latest Nike arrivals—where style, comfort, and innovation meet to elevate your active lifestyle.",
+    link: "https://nike-self-six.vercel.app/",
+  },
+  {
+    iconUrl: snapgram,
+    theme: "btn-back-blue",
+    name: "React Jobs",
+    description:
+      "Discover the perfect React job that matches your skills and career goals.",
+    link: "https://react-jobs-five-ebon.vercel.app/",
+  },
+  {
+    iconUrl: car,
+    theme: "btn-back-pink",
+    name: "Pokedex",
+    description:
+      "The Pokédex is a digital encyclopedia in the Pokémon universe, detailing species, abilities, and evolutions. A key tool for trainers, it has evolved across games, anime, and other media.",
+    link: "https://pokedex-five-green.vercel.app/",
   },
   {
     iconUrl: summiz,
-    theme: "btn-back-yellow",
-    name: "AI Summarizer Application",
+    theme: "btn-back-black",
+    name: "HooBank",
     description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+      "Our experts analyze key factors like APRs and annual fees to identify credit cards that best match your needs.",
+    link: "https://bank-modern-app-beryl.vercel.app/",
   },
 ];

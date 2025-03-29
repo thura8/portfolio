@@ -27,6 +27,7 @@ import contact from "./contact.svg";
 import soundon from "./soundon.png";
 import soundoff from "./soundoff.png";
 import reactnative from "./reactnative.svg";
+import ecommerce from "./e-commerce.svg";
 
 export {
   css,
@@ -58,4 +59,5 @@ export {
   contact,
   soundon,
   soundoff,
+  ecommerce,
 };
