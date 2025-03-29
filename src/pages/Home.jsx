@@ -57,9 +57,9 @@ const Home = () => {
         camera={{ near: 0.1, far: 1000 }}
       >
         <Suspense fallback={<Loader />}>
-          <directionalLight position={[5, 15, 5]} intensity={1.2} />
+          <directionalLight position={[5, 15, 5]} intensity={0.7} />
 
-          <ambientLight intensity={0.1} />
+          <ambientLight intensity={0.2} />
 
           <hemisphereLight
             skyColor="#b1e1ff"
@@ -78,8 +78,8 @@ const Home = () => {
             setCurrentStage={setCurrentStage}
           />
           <Plane
-            planeScale={planeScale}
-            planePosition={planePosition}
+            scale={planeScale}
+            position={planePosition}
             isRotating={isRotating}
             rotation={[0, 20, 0]}
           />
