@@ -69,11 +69,11 @@ export const skills = [
     name: "React Native",
     type: "Mobile Development",
   },
-  //   {
-  //     imageUrl: express,
-  //     name: "Express",
-  //     type: "Backend",
-  //   },
+  {
+    imageUrl: express,
+    name: "Express",
+    type: "Backend",
+  },
   {
     imageUrl: git,
     name: "Git",
@@ -96,11 +96,11 @@ export const skills = [
   //     name: "Next.js",
   //     type: "Frontend",
   //   },
-  //   {
-  //     imageUrl: nodejs,
-  //     name: "Node.js",
-  //     type: "Backend",
-  //   },
+  {
+    imageUrl: nodejs,
+    name: "Node.js",
+    type: "Backend",
+  },
 
   //   {
   //     imageUrl: sass,
