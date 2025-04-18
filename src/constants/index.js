@@ -85,11 +85,11 @@ export const skills = [
     type: "Version Control",
   },
 
-  //   {
-  //     imageUrl: mongodb,
-  //     name: "MongoDB",
-  //     type: "Database",
-  //   },
+  {
+    imageUrl: mongodb,
+    name: "MongoDB",
+    type: "Database",
+  },
 
   //   {
   //     imageUrl: nextjs,
@@ -192,8 +192,16 @@ export const projects = [
     link: "https://github.com/thura8/E-Commerce-react-native-",
   },
   {
-    iconUrl: car,
+    iconUrl: pricewise,
     theme: "btn-back-blue",
+    name: "Imagify",
+    description:
+      "A full-stack AI-powered SaaS application that allows users to generate and download images using text prompts. Built with the MERN stack (MongoDB, Express.js, React, Node.js) and integrated with the ClipDrop API for image generation. Includes user authentication, credit management, image downloads, responsive UI, and animations.",
+    link: "https://imagify-fs1b3ytuu-thu-ra-lynn-htuns-projects.vercel.app/",
+  },
+  {
+    iconUrl: car,
+    theme: "btn-back-red",
     name: "Popcorn plus movie app",
     description:
       "Our React Native movie app offers a seamless experience for discovering and exploring your favorite films. Browse movie categories, view detailed information, and create your own watchlist. With a sleek design and smooth navigation, enjoy an immersive entertainment experience anytime, anywhere.",
