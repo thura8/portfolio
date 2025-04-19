@@ -1,8 +1,8 @@
-🎨 Portfolio
+# 🎨 Portfolio
 
 A visually stunning 3D developer portfolio built with modern web technologies. This project showcases projects, experience, and contact details using smooth animations and interactive 3D visuals.
 
-🚀 Features
+## 🚀 Features
 
 Interactive 3D elements using React Three Fiber and Three.js
 
@@ -18,7 +18,7 @@ Modern routing with React Router DOM
 
 Fully optimized and fast with Vite
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 React 18
 
 Vite
