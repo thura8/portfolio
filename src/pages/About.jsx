@@ -49,9 +49,10 @@ const About = () => {
         <h3 className="subhead-text">Work Experience</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
-            My journey started at UAB as an intern, where I’ve grown my skills
-            while working with talented teams and learning from experienced
-            professionals. Here's a look at my experience:
+            My journey started working as Freelance Developer and got an intern
+            at UAB, where I’ve grown my skills while working with talented teams
+            and learning from experienced professionals. Here's a look at my
+            experience:
           </p>
         </div>
 

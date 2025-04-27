@@ -91,11 +91,11 @@ export const skills = [
     type: "Database",
   },
 
-  //   {
-  //     imageUrl: nextjs,
-  //     name: "Next.js",
-  //     type: "Frontend",
-  //   },
+  {
+    imageUrl: nextjs,
+    name: "Next.js",
+    type: "Frontend",
+  },
   {
     imageUrl: nodejs,
     name: "Node.js",
@@ -111,29 +111,29 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "Junior Software Developer (Internship)",
+    title: "Software Developer",
     company_name: "UAB",
     icon: uab,
     iconBg: "#accbe1",
-    date: "Nov 2024 - Jan 2025",
+    date: "July 2023 - Present",
     points: [
-      "Gained hands-on experience in web and mobile development.",
-      "Worked closely with senior developers to understand industry best practices.",
-      "Assisted in developing and maintaining applications using React Native and other relevant technologies.",
-      "Collaborated with teams to troubleshoot and debug issues effectively.",
+      "Developed and maintained a cross-platform mobile banking app using React Native, improving user experience and reducing crash rates by 30%.",
+      "Built scalable UI components, integrated REST APIs, and enhanced app accessibility across Android and iOS platforms.",
+      "Collaborated closely with backend teams, designers, and QA engineers within agile sprints for efficient feature delivery.",
+      "Led code reviews and implemented CI/CD pipelines to ensure high-quality, production-ready releases.",
     ],
   },
   {
-    title: "Junior Software Developer",
-    company_name: "UAB",
-    icon: uab,
+    title: "Freelance Mobile & Web Developer",
+    company_name: "Remote",
+    icon: "",
     iconBg: "#fbc3bc",
-    date: "Jan 2025 - Present",
+    date: "March 2022 – June 2023",
     points: [
-      "Developing and maintaining fintech applications using React Native, JavaScript frameworks, and modern financial technology solutions.",
-      "Implementing secure and efficient features to enhance user experiences in digital banking and financial services.",
-      "Working closely with cross-functional teams to deliver high-quality fintech products.",
-      "Participating in code reviews and contributing to continuous improvement efforts in financial app development.",
+      "Delivered multiple mobile and web projects for international clients using React Native and React.",
+      "Developed fully responsive UIs, integrated third-party APIs and ensured smooth mobile navigation experiences.",
+      "Optimized app performance and minimized load times across devices by applying mobile-first best practices.",
+      "Handled full project lifecycles from requirement gathering to deployment.",
     ],
   },
   //   {
