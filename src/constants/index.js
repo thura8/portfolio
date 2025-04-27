@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla, uab } from "../assets/images";
+import { meta, shopify, starbucks, tesla, uab, user } from "../assets/images";
 import {
   car,
   contact,
@@ -126,7 +126,7 @@ export const experiences = [
   {
     title: "Freelance Mobile & Web Developer",
     company_name: "Remote",
-    icon: "",
+    icon: user,
     iconBg: "#fbc3bc",
     date: "March 2022 - June 2023",
     points: [
