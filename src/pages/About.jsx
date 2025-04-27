@@ -66,7 +66,11 @@ const About = () => {
                   <div className="flex justify-center items-center w-full h-full">
                     <img
                       src={experience.icon}
-                      alt={experience.company_name}
+                      alt={
+                        experience.company_name === "Remote"
+                          ? ""
+                          : experience.company_name
+                      }
                       className="w-[70%] h-[70%] object-contain"
                     />
                   </div>

@@ -128,7 +128,7 @@ export const experiences = [
     company_name: "Remote",
     icon: "",
     iconBg: "#fbc3bc",
-    date: "March 2022 – June 2023",
+    date: "March 2022 - June 2023",
     points: [
       "Delivered multiple mobile and web projects for international clients using React Native and React.",
       "Developed fully responsive UIs, integrated third-party APIs and ensured smooth mobile navigation experiences.",
